@@ -1,0 +1,200 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master1.master.cs" Inherits="seminarito.Master1" %>
+
+
+
+<%@ Register src="Control1.ascx" tagname="Control1" tagprefix="uc1" %>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: Realistic
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Realistic</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<!-- Superfish Menu -->
+<script type="text/javascript" src="layout/scripts/superfish/jquery.hoverIntent.js"></script>
+<script type="text/javascript" src="layout/scripts/superfish/superfish.js"></script>
+<script type="text/javascript">
+jQuery(function () {
+    jQuery('ul.nav').superfish();
+});
+</script>
+<!-- / Superfish Menu -->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="top">
+     <form id="form1" runat="server">
+<div class="wrapper">
+  <div id="header">
+    <h1><a href="index.html">MYNOR MASAYA</a></h1>
+    <p>Seminario De Sistemas 1
+    </p>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="topbar">
+    <div class="fl_left">Tel: 54792660 | Mail: mynormasaya@gmail.com | 201213423 | DPI: 2409532230101</div>
+    <div class="fl_right">
+         </div>
+        <fieldset>
+          <legend>Site Search</legend>
+          &nbsp;
+        </fieldset>
+      </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="topnav">
+    <ul class="nav">
+      <li class="active"></li>
+      <li></li>
+      <li></li>
+      <li>&nbsp;<ul>
+          <li><a href="#">menu item</a></li>
+          <li><a href="#">menu item</a>
+            <ul>
+              <li><a href="#">menu item</a></li>
+              <li><a href="#">menu item</a>
+                <ul>
+                  <li><a href="#">menu item</a></li>
+                  <li><a href="#">menu item</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">menu item</a>
+            <ul>
+              <li><a href="#">menu item</a></li>
+              <li><a href="#">menu item</a></li>
+            </ul>
+          </li>
+          <li><a href="#">menu item</a></li>
+        </ul>
+      </li>
+      <li></li>
+      <li class="last"></li>
+    </ul>
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div class="container">
+    <div class="whitebox" id="hpage_services">
+      <div class="block"><img src="https://www.upf.edu/carreres-professionals/_img/SKILLSx_res.jpg" width="120" height="46" alt="" /><strong>Habilidades</strong>
+        <p>
+            <ul>
+                <li>Capacidad para recibir y transmitir conocimientos de manera eficaz</li>
+                 <li>Excelentes relaciones interpersonales</li>
+                <li>Apto para integración en equipo de trabajo</li>
+                <li>Ordenado y metódico, bueno para alcanzar metas a corto plazo</li>
+                <li>Visión para gestión de proyectos</li>
+                <li>Conocimiento de C#, C, C++, JAVA, ANDROID, SQL ANSI, VB</li>
+            </ul>
+        </p>
+      </div>
+      <div class="block"><img src="https://cdn.website.thryv.com/226b207f38a3422c83dd1c0ff6942019/DESKTOP/png/656.png" width="60" height="60" alt="" /><strong>Logros</strong>
+        <p>
+            <li>IT en Escuela Regional de Ingeniería Sanitaría ( ERIS ) USAC</li>
+            <li>Desarrollo de proyectos sobre crecimiento de plantas en ambientes controlados</li>
+            <li>Manejo fluído del idioma inglés, y básico de idioma francés</li>
+
+        </p>
+      </div>
+      <div class="block last"><img src="https://k60.kn3.net/taringa/1/3/E/1/8/A/mabfgp/961.jpg" width="60" height="60" alt=""  /><strong>Estudios </strong>
+        <p><li>8vo semestre Ingeniería en Ciencias y Sistemas USAC</li>
+            <li>Estudios de música, 2do semestre conservatorio nacional de música </li>
+        </p>
+      </div>
+      <div class="spacer">&nbsp;</div>
+      <div class="block"><img src="https://cdn-images-1.medium.com/max/910/1*BCZkmZR1_YzDZy22Vn4uUw.png" width="100" height="60" alt="" /><strong>Repositorio de esta página</strong>
+        <p>En el siguiente link encontrará el código fuente de esta página
+<a href="url">LINK</a>
+</p>
+      </div>
+
+      <div class="clear">
+          <p><strong>Hobbies</strong>
+      </div>
+    </div>
+    <!-- ####################################################################################################### -->
+    <div id="hpage_latest">
+      <ul>
+        <li>
+          <div class="imgholder"><a href="#"><img src="http://www.eluniversal.com.mx/sites/default/files/styles/f03-651x400/public/2015/06/10/noche_estrellada_entender_arte_st.jpg?itok=QRon3j37" width="260" height="180" alt="" /></a></div>
+          <p><strong>Arte</strong></p>
+          <p>&nbsp;</p>
+        </li>
+        <li>
+          <div class="imgholder"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD4Bc9tli7HX2yS8Ca5CRPKliz-9UCRoo5q94BkbVl_UIgeO5sYg" width="260" height="180" alt="" /></a></div>
+          <p><strong>Música</strong></p>
+          <p>&nbsp;</p>
+        </li>
+        <li class="last">
+          <div class="imgholder"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYzOj7NOmtH57NF-TjwUM8ID20aKtS3kaPSBcZ8jaxY7bHHaXw" width="260" height="180" alt="" /></a></div>
+          <p><strong>Ciencia</strong></p>
+          <p>&nbsp;</p>
+        </li>
+      </ul>
+      <br class="clear" />
+    </div>
+      <uc1:Control1 ID="Control11" runat="server" />
+  </div>
+</div>
+     </form>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="copyright">
+    <p class="fl_left">Todos los derechos Reservados</p>
+    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <br class="clear" />
+  </div>
+</div>
+          </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<%--<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>--%>
